@@ -12,4 +12,9 @@ public class Hote1Test {
         RoomsMapper roomsMapper = sqlSession.getMapper(RoomsMapper.class);
         roomsMapper.findTypes().forEach(roomstype-> System.out.println(roomstype));
     }
+
+    public void ddd(){
+        System.out.println("1111");
+    }
+
 }
